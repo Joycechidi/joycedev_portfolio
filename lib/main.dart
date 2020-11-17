@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/home_screen.dart';
 
+import 'home_screen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +16,6 @@ class MyApp extends StatelessWidget {
       title: 'Joyce Chidiadi',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        primarySwatch: Colors.deepPurple,
       ),
       home: HomeScreen(),
     );

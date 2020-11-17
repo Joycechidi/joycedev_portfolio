@@ -23,7 +23,7 @@ class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: kDefaultPadding * 2),
+      padding: EdgeInsets.symmetric(horizontal: kDefaultPadding * 2.5),
       constraints: BoxConstraints(maxWidth: 1130),
       height: 100,
       decoration: BoxDecoration(
@@ -59,7 +59,7 @@ class _MenuState extends State<Menu> {
           );
         },
         child: Container(
-            constraints: BoxConstraints(minWidth: 138),
+            constraints: BoxConstraints(minWidth: 122),
             height: 100,
             child: Stack(
               //overflow: Overflow.visible,
