@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/component/section_title.dart';
 import 'package:joyce_portfolio/models/my_writings.dart';
-import 'package:joyce_portfolio/sections/topSection/writings/components/writings_card.dart';
+import 'package:joyce_portfolio/sections/topSection/writings/writings_card.dart';
 
 import '../../../../constants.dart';
 
