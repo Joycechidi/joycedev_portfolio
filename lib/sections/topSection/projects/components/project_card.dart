@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:joyce_portfolio/models/projects.dart';
 
 import '../../../../constants.dart';
 

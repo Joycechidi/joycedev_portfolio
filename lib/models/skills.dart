@@ -9,7 +9,7 @@ class Skills {
 }
 
 //Demo list of projects
-List<Skills> projects = [
+List<Skills> skills = [
   Skills(
     id: 1,
     title: "Languages",

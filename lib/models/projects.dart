@@ -6,7 +6,7 @@ class Projects {
 }
 
 //Demo list of projects
-List<Projects> projects = [
+List<Projects> projectWork = [
   Projects(
     id: 1,
     title: "Image Classification",

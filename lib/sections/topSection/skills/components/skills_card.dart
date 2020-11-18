@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:joyce_portfolio/models/skills.dart';
+//import 'package:joyce_portfolio/sections/topSection/skills/components/skills_section.dart';
 import '../../../../constants.dart';
 
 class SkillsCard extends StatefulWidget {

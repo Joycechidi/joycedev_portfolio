@@ -1,6 +1,4 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
 import '../../../constants.dart';
 
 class Menu extends StatefulWidget {
@@ -15,7 +13,7 @@ class _MenuState extends State<Menu> {
     "Home",
     "About Me",
     "Skills",
-    "Portfolio",
+    "Projects",
     "Writings",
     "Contact"
   ];

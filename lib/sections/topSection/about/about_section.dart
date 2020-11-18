@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:joyce_portfolio/component/default_button.dart';
+import 'package:joyce_portfolio/component/my_outline_button.dart';
 import 'package:joyce_portfolio/constants.dart';
 
 import 'components/about_section_text.dart';
@@ -23,7 +25,7 @@ class AboutSection extends StatelessWidget {
                       "I am a software engineer focusing on Artificial Intelligence and Deep Learning. I'm in interested in building products that benefit businesses and their customers while implementing Secure and Private Data tools in most products I build.",
                 ),
               ),
-              ExperienceCard(numOfExp: "08"),
+              ExperienceCard(numOfExp: "03"),
               Expanded(
                 child: AboutSectionText(
                   text:
@@ -44,7 +46,7 @@ class AboutSection extends StatelessWidget {
               SizedBox(width: kDefaultPadding * 1.5),
               DefaultButton(
                 imageSrc: "assets/images/download.png",
-                text: "Download CV",
+                text: "Download Resume",
                 press: () {},
               ),
             ],

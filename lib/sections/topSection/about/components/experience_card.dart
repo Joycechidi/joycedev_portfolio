@@ -51,7 +51,7 @@ class ExperienceCard extends StatelessWidget {
                       BoxShadow(
                         offset: Offset(0, 5),
                         blurRadius: 10,
-                        color: Color(0xFFA600FF).withOpacity(0.5),
+                        color: Color(0xFF54C5CC).withOpacity(0.5),
                       ),
                     ],
                   ),
@@ -70,7 +70,7 @@ class ExperienceCard extends StatelessWidget {
             Text(
               "Years of Experience",
               style: TextStyle(
-                color: Color(0xFFA600FF),
+                color: Color(0xFF54C5CC),
               ),
             )
           ],

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/component/hireme_card.dart';
 import 'package:joyce_portfolio/component/section_title.dart';
+import 'package:joyce_portfolio/models/projects.dart';
 import 'package:joyce_portfolio/sections/topSection/projects/components/project_card.dart';
-
 import '../../../constants.dart';
 
-class RecentWorkSection extends StatelessWidget {
+class ProjectWorkSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -28,7 +28,7 @@ class RecentWorkSection extends StatelessWidget {
           ),
           SectionTitle(
             title: "Projects",
-            subTitle: "My Strong Arenas",
+            subTitle: "My recent work",
             color: Color(0xFFFFB100),
           ),
           SizedBox(height: kDefaultPadding * 1.5),
@@ -38,7 +38,7 @@ class RecentWorkSection extends StatelessWidget {
               spacing: kDefaultPadding,
               runSpacing: kDefaultPadding * 2,
               children: List.generate(
-                projectWorks.length,
+                projectWork.length,
                 (index) => ProjectWorkCard(index: index, press: () {}),
               ),
             ),
