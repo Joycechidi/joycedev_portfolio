@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/component/hireme_card.dart';
 import 'package:joyce_portfolio/component/section_title.dart';
 import 'package:joyce_portfolio/models/projects.dart';
-import 'package:joyce_portfolio/sections/topSection/projects/components/project_card.dart';
-import '../../../constants.dart';
+import '../../constants.dart';
+import 'components/project_card.dart';
 
 class ProjectWorkSection extends StatelessWidget {
   @override
