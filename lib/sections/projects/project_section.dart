@@ -17,7 +17,7 @@ class ProjectWorkSection extends StatelessWidget {
         color: Color(0xFFF7E8FF).withOpacity(0.3),
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage("assets/images/recent_work_bg.png"),
+          image: AssetImage("assets/images/project_bg.png"),
         ),
       ),
       child: Column(

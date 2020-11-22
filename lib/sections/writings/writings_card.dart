@@ -68,7 +68,7 @@ class _WritingCardState extends State<WritingCard> {
             ),
             SizedBox(height: kDefaultPadding * 2),
             Text(
-              "Ronald Thompson",
+              "Learning Python",
               style: TextStyle(fontWeight: FontWeight.bold),
             )
           ],

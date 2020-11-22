@@ -12,7 +12,7 @@ class PersonPics extends StatelessWidget {
         maxWidth: 700,
         maxHeight: 868,
       ),
-      child: Image.asset("assets/images/header.png"),
+      child: Image.asset("assets/images/writing1.png"),
     );
   }
 }

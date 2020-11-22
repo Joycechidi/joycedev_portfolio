@@ -39,7 +39,7 @@ class AboutSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               MyOutlineButton(
-                imageSrc: "assets/images/hand.png",
+                imageSrc: "assets/images/handshake.png",
                 text: "Hire Me!",
                 press: () {},
               ),

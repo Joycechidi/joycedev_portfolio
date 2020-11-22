@@ -17,18 +17,18 @@ List<Projects> projectWork = [
     id: 2,
     title: "Recommendation systems",
     category: "Data Science",
-    image: "assets/images/TriDeez_logo.png",
+    image: "assets/images/ml.png",
   ),
   Projects(
     id: 3,
     title: "GANS",
     category: "Deep Learning",
-    image: "assets/images/TriDeez_logo1.png",
+    image: "assets/images/desktop.png",
   ),
   Projects(
     id: 4,
     title: "Sentiment Analysis",
     category: "Mobile Applications",
-    image: "assets/images/product_image.png",
+    image: "assets/images/know_canada.png",
   ),
 ];
