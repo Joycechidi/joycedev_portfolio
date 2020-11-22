@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/component/default_button.dart';
 import 'package:joyce_portfolio/component/my_outline_button.dart';
 import 'package:joyce_portfolio/constants.dart';
-
-import 'components/about_section_text.dart';
-import 'components/about_text_with_sign.dart';
-import 'components/experience_card.dart';
+import 'package:joyce_portfolio/sections/about/components/about_section_text.dart';
+import 'package:joyce_portfolio/sections/about/components/about_text_with_sign.dart';
+import 'package:joyce_portfolio/sections/about/components/experience_card.dart';
 
 class AboutSection extends StatelessWidget {
   @override

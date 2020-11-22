@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:joyce_portfolio/component/section_title.dart';
 import 'package:joyce_portfolio/models/my_writings.dart';
-import 'package:joyce_portfolio/sections/writings/writings_card.dart';
+import 'package:joyce_portfolio/sections/writings/components/writings_card.dart';
 
-import '../../../constants.dart';
+import '../../constants.dart';
 
 class WritingSection extends StatelessWidget {
   @override

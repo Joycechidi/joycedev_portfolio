@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:joyce_portfolio/constants.dart';
 import 'package:joyce_portfolio/models/my_writings.dart';
-import '../../constants.dart';
 
 class WritingCard extends StatefulWidget {
   const WritingCard({
